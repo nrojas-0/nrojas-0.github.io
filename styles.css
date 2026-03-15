@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /*resets css*/
+body{
+    font-family: fraunces, Arial, Gerogia;
+    font-size: 14px;
+    /*background-color: #fef4ff;*/
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /*need to see if needed or can get rid of*/
+
+  }
+/* Navbar */
+.NAVBAR {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff3d9e; /*ff66b3*/
+  /*background: #002e5c;*/
+  padding: 15px 40px;
+}
+
+.NAVBAR .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.NAVBAR nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.NAVBAR nav a.active {
+  text-decoration:none;
+  color: #000000;
+}
+.site-footer {
+  background-color: #ff66b3; 
+  color: #ffffff;            /* white text */
+  text-align: center;
+  padding: 20px;}
+
+.footer-favicon { /* This makes the Favicon be size adjusted before the copyright statement*/
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
